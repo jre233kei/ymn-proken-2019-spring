@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extract_pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beautifulsoup_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/20190415-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/20190415-test.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +15,13 @@
     <session id="1928056869">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -27,7 +29,7 @@
           <entry key="gitignore" value="1" />
           <entry key="ipynb" value="2" />
           <entry key="keep" value="2" />
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -35,20 +37,22 @@
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
+          <entry key="Scratch" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="19" />
-          <entry key="py" value="214" />
+          <entry key="py" value="1029" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="214" />
+          <entry key="Python" value="264" />
+          <entry key="Scratch" value="765" />
         </counts>
       </usages-collector>
     </session>
@@ -66,7 +70,7 @@
             <entry file="file://$PROJECT_DIR$/src/extract_pages.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
                 </state>
               </provider>
             </entry>
@@ -102,11 +106,30 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/raw/jawiki-latest-pages-articles (1).xml">
-              <provider selected="true" editor-type-id="LargeFileEditor">
-                <state relative-caret-position="-14006" />
+              <provider selected="true" editor-type-id="LargeFileEditor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/beautifulsoup_test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+                </state>
               </provider>
             </entry>
           </file>
@@ -130,6 +153,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/notebook/20190415-test.ipynb" />
         <option value="$PROJECT_DIR$/src/extract_pages.py" />
+        <option value="$PROJECT_DIR$/src/beautifulsoup_test.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       </list>
     </option>
   </component>
@@ -149,28 +174,12 @@
           <expand>
             <path>
               <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="raw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-              <item name="notebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -179,6 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -220,7 +230,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13812543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,6 +244,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,6 +257,13 @@
     <entry file="file://$PROJECT_DIR$/src/.keep">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/20190415-test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -256,20 +274,30 @@
     <entry file="file://$PROJECT_DIR$/data/raw/.keep">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notebook/20190415-test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
+    <entry file="file://$PROJECT_DIR$/src/extract_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beautifulsoup_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/raw/jawiki-latest-pages-articles (1).xml">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extract_pages.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="396">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>
