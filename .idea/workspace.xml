@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model/estimation_silent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/amazon_url_collector-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/amazon_url_collector-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/amazon_url_collector.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/amazon_url_collector.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processing/20190526_名詞のみ.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/processing/20190526_名詞のみ.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processing/raw-5.lst" beforeDir="false" afterPath="$PROJECT_DIR$/data/processing/raw-5.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processing/test-5.lst" beforeDir="false" afterPath="$PROJECT_DIR$/data/processing/test-5.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processing/train-5.lst" beforeDir="false" afterPath="$PROJECT_DIR$/data/processing/train-5.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/estimation_silent.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/estimation_silent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/20190526_テストデータ分割-名詞のみ-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/20190526_品詞分解-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/20190526_品詞分解-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/20190526_テストデータ分割-名詞のみ.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/20190526_品詞分解.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/20190526_品詞分解.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +38,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="bin" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="ipynb" value="2" />
           <entry key="keep" value="2" />
-          <entry key="lst" value="10" />
+          <entry key="lst" value="19" />
           <entry key="py" value="7" />
           <entry key="txt" value="2" />
           <entry key="xml" value="4" />
@@ -45,7 +51,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="2" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="Python" value="6" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="4" />
@@ -54,13 +60,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="19" />
-          <entry key="py" value="1602" />
+          <entry key="py" value="1603" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="837" />
+          <entry key="Python" value="838" />
           <entry key="Scratch" value="765" />
         </counts>
       </usages-collector>
@@ -68,7 +74,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/learning.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -83,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/processing/train-3.lst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-338">
               <caret column="1762" selection-start-column="1762" selection-end-column="1762" />
             </state>
           </provider>
@@ -92,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/processing/train-2.lst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
+            <state relative-caret-position="302">
               <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
             </state>
           </provider>
@@ -107,30 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/estimation_silent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-              <folding>
-                <element signature="e#25#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/processing/train-5.lst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1731" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/estimation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            <state relative-caret-position="-287">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -150,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/processing/train.lst">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="60">
               <caret column="375" selection-start-column="375" selection-end-column="375" />
             </state>
           </provider>
@@ -351,13 +338,6 @@
     <entry file="file://$PROJECT_DIR$/model/pred.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/processing/train-2.lst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/estimation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -368,24 +348,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/processing/train.lst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="375" selection-start-column="375" selection-end-column="375" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/processing/train-3.lst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret column="1762" selection-start-column="1762" selection-end-column="1762" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/processing/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3293">
           <caret line="3360" selection-start-line="3360" selection-end-line="3360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,27 +372,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/estimation_silent.py">
+    <entry file="file://$PROJECT_DIR$/data/processing/train-2.lst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="302">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/processing/train-5.lst">
+    <entry file="file://$PROJECT_DIR$/data/processing/train-1.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/train-3.lst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1731" />
+        <state relative-caret-position="-338">
+          <caret column="1762" selection-start-column="1762" selection-end-column="1762" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/learning.py">
+    <entry file="file://$PROJECT_DIR$/data/processing/train.lst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="60">
+          <caret column="375" selection-start-column="375" selection-end-column="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/train-6.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/raw-5.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/test-5.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/train-5.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/20190526_全て.bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processing/test-12.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/estimation_silent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

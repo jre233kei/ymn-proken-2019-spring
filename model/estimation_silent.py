@@ -62,7 +62,7 @@ def main(model):
     true = []
     pred = []
 
-    path = '../data/processing/test.txt'
+    path = argvs[2]
     test_text = open(path, 'r')
 
     for t in test_text:
