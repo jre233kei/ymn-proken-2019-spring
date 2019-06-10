@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(
 );
 
 var port = chrome.runtime.connectNative("sample_app");
-
+ 
 /*
 Listen for messages from the app.
 */
