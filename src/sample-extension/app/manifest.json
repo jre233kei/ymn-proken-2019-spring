@@ -5,15 +5,20 @@
   "version": "1.0",
   "manifest_version": 2,
   "description": "Send a message to a native application.",
-  "app": {
-    "launch": {
-      "local_path": "main.html"
-    }
+  "browser_action":{
+    "default_popup":"main.html"
   },
   "icons": {
     "128": "icon-128.png"
   },
   "permissions": [
-    "nativeMessaging"
-  ]
+    "nativeMessaging",
+    "file:///*/*"
+  ],
+  "content_scripts": [{
+    "matches": [ "http://*/*", "https://*/*" ],
+    "js": [
+      "main.js"
+    ]
+  }]
 }
