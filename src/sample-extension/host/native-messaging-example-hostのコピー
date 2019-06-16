@@ -11,8 +11,6 @@ import sys
 import threading
 import Queue
 
-
-
 try:
   import Tkinter
   import tkMessageBox
