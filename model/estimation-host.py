@@ -114,6 +114,7 @@ if Tkinter:
             self.after(100, self.process_messages)
 
         def process_messages(self):
+            dump("bbb")
             while not self.queue.empty():
                 message = self.queue.get_nowait()
                 if message is None:
@@ -125,6 +126,7 @@ if Tkinter:
 
         def on_send(self):
             text = '{"text":"' + self.messageContent.get() + '"}'
+
             self.log('Sending %s' % text)
             try:
                 send_message(text)
@@ -139,7 +141,16 @@ if Tkinter:
             self.text.config(state=Tkinter.DISABLED)
 
 
+def dump(msg):
+    path = 'log.txt'
+    s = msg
+    with open(path, mode='a') as f:
+        f.write(s)
+
+
 def main():
+    sys.stdout.write("AAA")
+
     if not Tkinter:
         send_message('"Tkinter python module wasn\'t found. Running in headless ' +
                      'mode. Please consider installing Tkinter."')
