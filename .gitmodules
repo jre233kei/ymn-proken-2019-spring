@@ -1,0 +1,6 @@
+[submodule "src/sample-extension-pga03"]
+	path = src/sample-extension-pga03
+	url = /Users/fukuikota/work/indivisual/ymn-proken/src/sample-extension-pga03
+[submodule "src/sample-extension-andy"]
+	path = src/sample-extension-andy
+	url = /Users/fukuikota/work/indivisual/ymn-proken/src/sample-extension-andy

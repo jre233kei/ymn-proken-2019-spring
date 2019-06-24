@@ -9,7 +9,6 @@
 import struct
 import sys
 import threading
-import subprocess
 
 
 # Python 3 compatibility
@@ -43,7 +42,6 @@ if sys.platform == "win32":
 
 # Helper function that sends a message to the webapp.
 def send_message(message):
-
     # Write message size.
     msg_size = struct.pack('I', len(message))
 
@@ -55,8 +53,6 @@ def send_message(message):
 
     # Write the message itself.
     sys.stdout.write(message)
-
-
     sys.stdout.flush()
 
 
@@ -114,19 +110,31 @@ if Tkinter:
             self.after(100, self.process_messages)
 
         def process_messages(self):
-            dump("bbb")
             while not self.queue.empty():
                 message = self.queue.get_nowait()
                 if message is None:
                     self.quit()
                     return
+
                 self.log("Received %s" % message)
+
+                t_len = len(message) - 11
+
+                from . import estimation_host_internal as est
+                str_ = est.main1("HELLO")
+
+                print(str_)
+
+                # str_ = message[9:9 + t_len]
+
+                # SEND AGAIN
+                text = '{"text": "' + str_ + '"}'
+                send_message(text)
 
             self.after(100, self.process_messages)
 
         def on_send(self):
             text = '{"text":"' + self.messageContent.get() + '"}'
-
             self.log('Sending %s' % text)
             try:
                 send_message(text)
@@ -141,16 +149,12 @@ if Tkinter:
             self.text.config(state=Tkinter.DISABLED)
 
 
-def dump(msg):
-    path = 'log.txt'
-    s = msg
-    with open(path, mode='a') as f:
-        f.write(s)
-
-
 def main():
-    sys.stdout.write("AAA")
+    
+    from . import estimation_host_internal as estintl
+    str_ = estintl.main1("HELLO")
 
+    print(str_)
     if not Tkinter:
         send_message('"Tkinter python module wasn\'t found. Running in headless ' +
                      'mode. Please consider installing Tkinter."')
