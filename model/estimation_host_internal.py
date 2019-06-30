@@ -8,12 +8,6 @@ import fasttext as ft
 import subprocess
 
 
-class XXX:
-    def main2(self):
-        subprocess.check_output(shell=True)
-        #return sys.version
-        return ''.join([i for i in sys.version.split()])
-
 MODEL = '../data/processing/20190526_名詞のみ.bin'
 
 
@@ -21,9 +15,10 @@ def text2bow(obj, mod):
     mecab = MeCab.Tagger("-Ochasen")
     morp = mecab.parse(obj)
     words = morp[1]
-    words = words.replace('\n','')
+    words = words.replace('\n', '')
 
     return words
+
 
 def Scoring(prob):
 
