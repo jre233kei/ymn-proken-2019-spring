@@ -1,31 +1,25 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import sys
+import os
 import MeCab
 import fasttext as ft
+import subprocess
+
+
+class XXX:
+    def main2(self):
+        subprocess.check_output(shell=True)
+        #return sys.version
+        return ''.join([i for i in sys.version.split()])
 
 MODEL = '../data/processing/20190526_名詞のみ.bin'
 
 
 def text2bow(obj, mod):
-
-    # input: ファイルの場合はmod="file", input: 文字列の場合はmod="str"
-
-    """
-    if mod == "file":
-        morp = cmd.getstatusoutput("cat " + obj + " | mecab -Owakati")
-    elif mod == "str":
-        morp = cmd.getstatusoutput("echo " + obj + " | mecab -Owakati")
-    else:
-        print ("error!!")
-        sys.exit(0)
-    """
-
     mecab = MeCab.Tagger("-Ochasen")
     morp = mecab.parse(obj)
-
-    # print(morp)
-
     words = morp[1]
     words = words.replace('\n','')
 
@@ -61,7 +55,6 @@ def main1(text):
     model = ft.load_model(MODEL)
     score = SentimentEstimation(text, model)
     return score
-    # print(score)
 
 
 if __name__ == "__main__":

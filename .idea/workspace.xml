@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample-extension-andy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample-extension-pga03" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/estimation-host-internal.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model/estimation-host.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/estimation-host.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample-extension/host/native-messaging-example-host" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample-extension/host/native-messaging-example-host" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/estimation_host_internal.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/estimation_host_internal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/log.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,19 +19,21 @@
     <session id="1928056869">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7614" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,7 +47,7 @@
           <entry key="keep" value="2" />
           <entry key="lst" value="20" />
           <entry key="native-messaging-example-host" value="3" />
-          <entry key="py" value="21" />
+          <entry key="py" value="23" />
           <entry key="txt" value="4" />
           <entry key="xml" value="4" />
         </counts>
@@ -57,7 +57,7 @@
           <entry key="IPNB" value="2" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="24" />
+          <entry key="Python" value="26" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -66,13 +66,13 @@
         <counts>
           <entry key="gitignore" value="19" />
           <entry key="native-messaging-example-host" value="33" />
-          <entry key="py" value="3322" />
+          <entry key="py" value="4196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="2584" />
+          <entry key="Python" value="3458" />
           <entry key="Scratch" value="765" />
         </counts>
       </usages-collector>
@@ -94,10 +94,24 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/model/estimation_host_internal.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="430">
-                  <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+                <state relative-caret-position="170">
+                  <caret line="55" column="44" selection-start-line="54" selection-start-column="4" selection-end-line="55" selection-end-column="44" />
                   <folding>
-                    <element signature="e#25#35#0" expanded="true" />
+                    <marker date="1561518348400" expanded="true" signature="46:47" ph="..." />
+                    <marker date="1561518348400" expanded="true" signature="133:285" ph="..." />
+                    <marker date="1561518348400" expanded="true" signature="154:207" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/model/test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="16">
+                  <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+                  <folding>
+                    <marker date="1561509071793" expanded="true" signature="11:29" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -108,18 +122,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="53760">
                   <caret line="3360" selection-start-line="3360" selection-end-line="3360" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/model/estimation-hostのコピー.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="47" />
-                  <folding>
-                    <element signature="e#325#338#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -149,8 +151,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/model/estimation-host.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="395">
-                  <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
+                <state relative-caret-position="224">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="e#325#338#0" expanded="true" />
                   </folding>
@@ -238,16 +240,17 @@
         <option value="$PROJECT_DIR$/src/extension/content.js" />
         <option value="$PROJECT_DIR$/model/estimation-host-internal.py" />
         <option value="$PROJECT_DIR$/src/sample-extension/host/native-messaging-example-host" />
+        <option value="$PROJECT_DIR$/model/test.py" />
+        <option value="$PROJECT_DIR$/model/__init__.py" />
         <option value="$PROJECT_DIR$/model/estimation_host_internal.py" />
         <option value="$PROJECT_DIR$/model/estimation-host.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1969" />
-    <option name="height" value="1417" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,23 +258,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
               <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="processing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +313,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,23 +358,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1969" height="1417" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16735113" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16701902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.45962265" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.45859873" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32866243" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,6 +494,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/estimation-hostのコピー.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <marker date="1561509071793" expanded="true" signature="11:29" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/processing/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53760">
@@ -510,20 +521,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/estimation-hostのコピー.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#325#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/processing/train.lst">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="375" selection-start-column="375" selection-end-column="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/estimation_host_internal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="44" selection-start-line="54" selection-start-column="4" selection-end-line="55" selection-end-column="44" />
+          <folding>
+            <marker date="1561518348400" expanded="true" signature="46:47" ph="..." />
+            <marker date="1561518348400" expanded="true" signature="133:285" ph="..." />
+            <marker date="1561518348400" expanded="true" signature="154:207" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,20 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/estimation_host_internal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/estimation-host.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#325#338#0" expanded="true" />
           </folding>

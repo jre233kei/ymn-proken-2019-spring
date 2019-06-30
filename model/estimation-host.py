@@ -9,7 +9,44 @@
 import struct
 import sys
 import threading
+import MeCab
+import fasttext as ft
+import subprocess
 
+MODEL = '../data/processing/20190526_名詞のみ.bin'
+
+def text2bow(obj, mod):
+    mecab = MeCab.Tagger("-Ochasen")
+    morp = mecab.parse(obj)
+    words = morp[1]
+    words = words.replace('\n','')
+
+    return words
+
+def Scoring(prob):
+
+    score = 0.0
+    for e in prob.keys():
+        score += e*prob[e]
+
+    return score
+
+
+def SentimentEstimation(input_txt, clf):
+
+    prob = {}
+
+    bow = text2bow(input_txt, mod="str")
+
+    # print(bow)
+    estimate = clf.predict_proba(texts=[bow], k=5)[0]
+
+    for e in estimate:
+        index = int(e[0][9])
+        prob[index] = e[1]
+
+    score = Scoring(prob)
+    return score
 
 # Python 3 compatibility
 if sys.version_info[0] < 3:
@@ -119,17 +156,12 @@ if Tkinter:
                 self.log("Received %s" % message)
 
                 t_len = len(message) - 11
-
-                from . import estimation_host_internal as est
-                str_ = est.main1("HELLO")
-
-                print(str_)
-
+                #send_message(message)
                 # str_ = message[9:9 + t_len]
 
                 # SEND AGAIN
-                text = '{"text": "' + str_ + '"}'
-                send_message(text)
+                #text = '{"text": "' + str_ + '"}'
+                #send_message(text)
 
             self.after(100, self.process_messages)
 
@@ -150,11 +182,11 @@ if Tkinter:
 
 
 def main():
-    
-    from . import estimation_host_internal as estintl
-    str_ = estintl.main1("HELLO")
+    model = ft.load_model(MODEL)
+    str_ = str(SentimentEstimation('Hello', model))
+    text = '{"text": "' + str_ + '"}'
+    send_message(text)
 
-    print(str_)
     if not Tkinter:
         send_message('"Tkinter python module wasn\'t found. Running in headless ' +
                      'mode. Please consider installing Tkinter."')
