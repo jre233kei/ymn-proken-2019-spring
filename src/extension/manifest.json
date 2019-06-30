@@ -1,0 +1,23 @@
+{
+  "name": "Sample",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Sample Chrome Extension",
+  "permissions": [
+    "tabs", "storage", "contextMenus",
+    "http://*/*", "https://*/*", "file:///*/*",
+    "nativeMessaging"
+  ],
+  "content_scripts": [{
+    "matches": [ "http://*/*", "https://*/*" ],
+    "js": [
+      "jquery-3.4.1.min.js", "content.js"
+    ]
+  }],
+  "browser_action":{
+    "default_popup":"popup.html"
+  }
+}
+
+
+
