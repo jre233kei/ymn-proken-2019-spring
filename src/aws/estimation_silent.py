@@ -4,7 +4,6 @@ import sys,os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/modules')
 
 from janome.tokenizer import Tokenizer
-# import nagisa
 import fasttext as ft
 
 MODEL = '20190526_名詞のみ.bin'
