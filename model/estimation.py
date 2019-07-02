@@ -18,6 +18,7 @@ def text2bow(obj, mod):
 
     words = morp[1]
     words = words.replace('\n','')
+    print(words)
 
     return words
 

@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import sys
-import MeCab
+import sys,os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/modules')
+
+from janome.tokenizer import Tokenizer
+# import nagisa
 import fasttext as ft
 
 MODEL = '20190526_名詞のみ.bin'
@@ -9,10 +12,11 @@ MODEL = '20190526_名詞のみ.bin'
 
 def text2bow(obj, mod):
 
-    mecab = MeCab.Tagger("-Ochasen")
-    morp = mecab.parse(obj)
+    t = Tokenizer()
 
-    words = morp[1]
+
+    # words = " ".join(nagisa.tagging(obj))
+    words = " ".join(t.tokenize(obj, wakati=True))
     words = words.replace('\n', '')
 
     return words
@@ -47,8 +51,8 @@ def main(text):
 
     model = ft.load_model(MODEL)
     score = SentimentEstimation(text, model)
-
+    return score
 
 if __name__ == "__main__":
     text = 'これはテストです。'
-    main(text)
+    print(main(text))

@@ -16,7 +16,7 @@ import subprocess
 MODEL = '../data/processing/20190526_名詞のみ.bin'
 
 def text2bow(obj, mod):
-    mecab = MeCab.Tagger("-Ochasen")
+    mecab = MeCab.Tagger("-Owakati")
     morp = mecab.parse(obj)
     words = morp[1]
     words = words.replace('\n','')
