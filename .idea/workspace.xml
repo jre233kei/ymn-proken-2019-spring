@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ymn-proken.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ymn-proken.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aws/docker/.Dockerfile.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aws/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/aws/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless" beforeDir="false" afterPath="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,90 +10,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1928056869">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7614" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="bak" value="1" />
-          <entry key="bin" value="1" />
-          <entry key="c" value="1" />
-          <entry key="estimation-host" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="ipynb" value="2" />
-          <entry key="js" value="2" />
-          <entry key="keep" value="2" />
-          <entry key="lst" value="20" />
-          <entry key="native-messaging-example-host" value="3" />
-          <entry key="py" value="39" />
-          <entry key="pyx" value="1" />
-          <entry key="txt" value="5" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C++" value="1" />
-          <entry key="IPNB" value="2" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="42" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="19" />
-          <entry key="native-messaging-example-host" value="33" />
-          <entry key="py" value="4695" />
-          <entry key="txt" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="3957" />
-          <entry key="Scratch" value="765" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/model/estimation-host.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="16">
+                  <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+                  <folding>
+                    <element signature="e#325#338#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+                <state relative-caret-position="867">
+                  <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
                   <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                    <element signature="e#199#1048#1" />
+                    <element signature="e#48#59#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/serverless.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/package.json">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="6" selection-start-column="6" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -107,12 +64,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/model/estimation-host.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+                <state relative-caret-position="210">
+                  <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#325#338#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -146,13 +106,16 @@
       <find>send</find>
       <find>import</find>
       <find>OOV</find>
+      <find>handler</find>
+      <find>input</find>
+      <find>docker</find>
     </findStrings>
     <replaceStrings>
       <replace>tkinter</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,14 +140,16 @@
         <option value="$PROJECT_DIR$/src/aws/requirements.txt" />
         <option value="$PROJECT_DIR$/src/aws/extensionHost.py" />
         <option value="$PROJECT_DIR$/src/aws/estimation_silent.py" />
+        <option value="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/serverless.yml" />
+        <option value="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/requirements.txt" />
+        <option value="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/.serverless/serverless-state.json" />
         <option value="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1411" />
+    <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -233,6 +198,25 @@
             </path>
             <path>
               <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="fasttext-serverless" type="462c0819:PsiDirectoryNode" />
+              <item name="fasttext-serverless" type="462c0819:PsiDirectoryNode" />
+              <item name=".serverless" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymn-proken" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="fasttext-serverless" type="462c0819:PsiDirectoryNode" />
+              <item name="fasttext-serverless" type="462c0819:PsiDirectoryNode" />
+              <item name=".serverless" type="462c0819:PsiDirectoryNode" />
+              <item name="requirements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ymn-proken" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -248,21 +232,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/fukuikota/work/indivisual/ymn-proken/data/processing/train-3.lst" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/modules" />
+      <recent name="$PROJECT_DIR$/src/aws/modules" />
+      <recent name="$PROJECT_DIR$/data/raw" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/notebook" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/aws/modules" />
-      <recent name="$PROJECT_DIR$/data/raw" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,10 +277,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info id="aws.explorer" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34038055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,20 +300,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/.keep" />
-    <entry file="file://$PROJECT_DIR$/data/raw/jawiki-latest-pages-articles (1).xml" />
-    <entry file="file://$PROJECT_DIR$/src/extract_pages.py" />
-    <entry file="file://$PROJECT_DIR$/notebook/20190415-test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/raw/.keep">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -490,16 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aws/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -513,20 +476,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/.serverless/cloudformation-template-create-stack.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/.serverless/cloudformation-template-update-stack.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python3/lib/python2.7/site-packages/janome/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3536">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/backup-handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/serverless.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/.serverless/serverless-state.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="387" column="6" selection-start-line="387" selection-start-column="6" selection-end-line="387" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/estimation-host.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="16">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding>
+            <element signature="e#325#338#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="867">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#199#1048#1" />
+            <element signature="e#48#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
