@@ -7,7 +7,7 @@
         sendResponse({farewell: "I came from the popup script!"});
     });
 */
-
+var pageStr = "";
 
 document.addEventListener('DOMContentLoaded', function () {
     // (Inside the click listener)
@@ -16,6 +16,30 @@ document.addEventListener('DOMContentLoaded', function () {
             // Data is an array of values, in case it was executed in multiple tabs/frames
             //download(data[0], "download.html", "text/html");
             document.getElementById("title").textContent = data[0];
+            //pageStr = data[0];
+            //console.log(pageStr);
+
+            //alert("Start messaging!");
+
+            console.log(data[0])
+
+            
+            //send_str = "最悪な商品でした";
+
+            
+
+            axios.defaults.headers['Content-Type'] = 'text/plain;charset=utf-8';
+
+            axios.post('https://g8kwped00b.execute-api.us-east-1.amazonaws.com/production', {
+                text : encodeURIComponent(data[0])
+            }).then(response => {
+                //alert(response.data.body);
+                console.log(response);
+                //alert('結果: ' + response["data"]["body"]);
+            }).catch(error => {
+                alert(error);
+            });;
+
         });
     });
 });

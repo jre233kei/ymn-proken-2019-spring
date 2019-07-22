@@ -6,5 +6,7 @@
     <mapping directory="$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/sample-extension-andy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/sample-extension-pga03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/samples/sample-extension-andy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/samples/sample-extension-pga03" vcs="Git" />
   </component>
 </project>

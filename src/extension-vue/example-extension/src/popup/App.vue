@@ -4,6 +4,8 @@
 
 <script>
 import axios from 'axios';
+
+/*
 //axios.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
 
 window.addEventListener('load', (event) => {
@@ -25,6 +27,7 @@ function connect () {
     });
   });
 }
+*/
 
 export default {
   data () {
@@ -53,18 +56,18 @@ export default {
 
 
 
-    /*
-    
-        axios.post('https://g8kwped00b.execute-api.us-east-1.amazonaws.com/production', {
-          text: "最悪な商品でした。返品したいです！"
-        }).then(response => {
-          console.log(response["data"]["body"]);
-          //alert('結果: ' + response["data"]["body"]);
-        }).catch(error => {
-          alert(error);
-        });;
-        
-        */
+
+
+    axios.post('https://g8kwped00b.execute-api.us-east-1.amazonaws.com/production', {
+      text: "最悪な商品でした。返品したいです！"
+    }).then(response => {
+      console.log(response["data"]["body"]);
+      //alert('結果: ' + response["data"]["body"]);
+    }).catch(error => {
+      alert(error);
+    });;
+
+
   }
 
 }

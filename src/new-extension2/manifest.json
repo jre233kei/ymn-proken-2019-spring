@@ -26,6 +26,7 @@
         "contextMenus",
         "declarativeContent", 
         "storage",
-        "tabs"
+        "tabs",
+        "http://*/*", "https://*/*", "file:///*/*", "<all_urls>"
     ]
 }
