@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Runtime Messaging Example",
+  "description": "A simple example of a Chrome Extension with runtime messaging from the content script to the background page.",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "default_title": "Runtime Messaging"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "background": {
+    "scripts": ["message.bg.js", "background.js"]
+  },
+
+  "permissions": []
+}

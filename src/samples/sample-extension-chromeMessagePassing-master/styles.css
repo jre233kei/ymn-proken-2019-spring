@@ -1,0 +1,30 @@
+body {
+  height: 200px;
+  width: 300px;
+  font-color: royalblue;
+  background-color: #e7e7e7;
+  text-align: center;
+}
+h1 {
+  font-size: 20px;
+}
+#btn {
+  display: inline-block;
+  padding: 5px;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 5px;
+}
+#infoFromTabDOM {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+}
+img {
+  width: 90%;
+  margin: 10px 0 0 0;
+}
+.database-icon {
+  .octicons;
+  content: "\f096";
+}

@@ -1,0 +1,31 @@
+{
+    "name": "msgPassingExample",
+    "version": "1.0",
+    "description": "Get suggestions for healthier recipes",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["http://*/*"],
+            "js": ["js/content.js"],
+            "run_at": "document_end",
+            "all_frames": false
+        },
+        {
+            "matches": ["https://*/*"
+            ],
+            "js": ["js/content.js"],
+            "run_at": "document_end",
+            "all_frames": false
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "declarativeContent", 
+        "storage",
+        "tabs"
+    ]
+}
