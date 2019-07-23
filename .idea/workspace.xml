@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extension-vue/example-extension/src/popup/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/extension-vue/example-extension/src/popup/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new-extension2/js/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-extension2/js/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new-extension2/js/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-extension2/js/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new-extension2/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-extension2/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new-extension2/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-extension2/popup.html" afterDir="false" />
-    </list>
+    <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="114">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#48#59#0" expanded="true" />
@@ -529,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aws/fasttext-serverless/fasttext-serverless/handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="114">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#48#59#0" expanded="true" />

@@ -1,7 +1,7 @@
 {
-    "name": "msgPassingExample",
+    "name": "Negaposi-Analyser",
     "version": "1.0",
-    "description": "Get suggestions for healthier recipes",
+    "description": "ページのネガポジ判定をします。",
     "manifest_version": 2,
     "content_scripts": [
         {

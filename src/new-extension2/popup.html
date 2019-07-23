@@ -1,18 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="jp">
 
 <head>
+    <meta charset="utf-8"/>
 </head>
 
 <body>
     <div id="container">
-        <div id="title">Title goes here</div>
-        <div id="result">Result gores here</div>
+        <h3 class='ctr'>結果</h3>
+        <div id="result" class="box">
+            <div class = 'res-ins'>
+                <p>Score is...</p>
+                <h3 class='lb' id='result-total'>Calculating...</h3>
+            </div>
+            <canvas id="canvas"></canvas>
+            <!--<div class="flx" id='cr-label'>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+            </div>-->
+        </div>
+        <h3 class='ctr'>取得したテキスト</h3>
+        <div id="title" class="box">Title goes here</div>
     </div>
 </body>
 
 <script src="js/axios.min.js"></script>
+<script src="js/Chart.min.js"></script>
 <script src="js/popup.js" charset="UTF-8"></script>
 
 </html>
+
+
+<style>
+    body{
+        background-color: #222831;
+        color: #eeeeee;
+    }
+    .ctr{
+        margin-left: 10px;
+        margin-top: 18px;
+        margin-bottom: 4px;
+    }
+    .box{
+        background-color:#393e46;
+        border-radius: 2px;
+        padding: 10px;
+    }
+    .flx{
+        width: 100%;
+        display: flex;  
+    }
+    .flx p{
+        width: 30%;
+        text-align: center;
+    }
+    .res-ins{
+        margin: 0;
+        display: flex;
+        justify-content:space-evenly;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .res-ins p,h3{
+        margin: 0;
+    }
+    .lb{
+        width: 70%;
+        text-align: right;
+        font-size: 2em;
+    }
+    #container{
+        width: 320px;
+        height: 500px;
+    }
+    #title{
+        margin: 0 auto;
+        overflow: scroll;
+        width: 280px;
+        height: 200px;
+        color:#BBB;
+    }
+    #canvas{
+        height: 280px;
+    }
+    #result{
+        margin: 0 auto;
+        width: 280px;
+        height: 180px;
+    }
+    #cr-label{
+        display: none;
+    }
+</style>
 
