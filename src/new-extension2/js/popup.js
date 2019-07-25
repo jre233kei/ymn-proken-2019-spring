@@ -1,4 +1,5 @@
 
+
 var data = []
 
 
@@ -9,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
             // Data is an array of values, in case it was executed in multiple tabs/frames
             // download(data[0], "download.html", "text/html");
             document.getElementById("title").textContent = data[0];
-
+            
+            document.getElementById('result-total').innerHTML = "Calculating..."
             console.log(data[0])
 
             console.log(data[0].replace(/\r?\n/g, ' '));
@@ -114,7 +116,7 @@ function formatGraphData (input) {
 
     score=0;
     for(i=0;i<5;i++)
-        score += i*res[i];
+        score += (i+1)*res[i];
     document.getElementById('result-total').innerHTML = score.toFixed(7);
     
 }

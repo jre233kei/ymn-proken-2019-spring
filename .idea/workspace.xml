@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="" />
+    <list default="true" id="e2d18d1b-2e90-45a7-9280-d2de869f4b94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/new-extension2/js/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-extension2/js/popup.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
